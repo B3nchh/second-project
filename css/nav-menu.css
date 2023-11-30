@@ -1,0 +1,46 @@
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px rgb(41, 41, 41);
+}
+nav .logo{
+    font-size: 28px;
+    font-weight: 900;  
+}
+nav ul li{
+    position: relative;
+    float: left;
+    list-style-type:none;
+}
+nav ul li a{
+    padding: 15px;
+    color: white;
+    font-family: outfit-c;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-family: outfit-c;
+}
+.home__tag{
+    color:burlywood ;
+}
+@font-face {
+    font-family:raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+    font-family:outfit-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
